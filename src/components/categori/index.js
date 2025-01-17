@@ -1,0 +1,1 @@
+export { Categori } from "./Categori";

@@ -1,0 +1,1 @@
+export { Mebeli } from "./Mebeli";

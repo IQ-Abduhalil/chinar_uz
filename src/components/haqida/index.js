@@ -1,0 +1,1 @@
+export { Haqida } from "./Haqida";
