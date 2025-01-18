@@ -9,7 +9,7 @@ import MenuLogo from "../../assets/icons/menu.svg";
 
 export function Header() {
   return (
-    <header>
+    <header className="fixed w-full z-50 shadow-md bg-white">
       <div className="container mx-auto px-6 md:px-12   md:flex md:justify-between py-5 ">
         <div className="header__left flex items-center justify-between md:gap-5 mb-3">
           <Link href="/">

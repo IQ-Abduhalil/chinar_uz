@@ -1,7 +1,7 @@
 export function Doma() {
   return (
     <section>
-      <div className="container mx-auto px-6 md:px-12 pb-16">
+      <div id="dostavka" className="container mx-auto px-6 md:px-12 pb-16">
         <p className="text-2xl md:text-4xl font-bold max-w-[814px] mb-8">
           ДОСТАВКА ПО ВСЕМУ МИРУ, ОПЛАТА ПО ФАКТУ ОСМОТРА У ВАС ДОМА
         </p>

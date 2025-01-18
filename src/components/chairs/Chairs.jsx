@@ -20,7 +20,7 @@ export function Chairs() {
               alt="chairs-image"
             />
           </div>
-          <div className="flex  flex-wrap  md:flex-nowrap gap-3">
+          <div className="flex  flex-wrap   gap-3">
             <Image width="33%" src={ChairImg2} alt="chairs-image" />
             <Image width="67%" src={ChairImg3} alt="chairs-image" />
           </div>

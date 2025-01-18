@@ -165,7 +165,7 @@ export default function XitCatalog() {
 
         <div className="flex flex-wrap justify-center gap-6">
           {NewArr.map((data) => (
-            <div className="p-8 mb-11">
+            <div className="p-8 mb-11 cursor-pointer shadow-md rounded-md ">
               <Image className=" mb-8" src={Like} alt="like-logo" />
               <Image
                 className="mb-14"

@@ -64,7 +64,7 @@ const array = [
 
 export function Catalog() {
   return (
-    <section className="catalog">
+    <section className="catalog" id="product">
       <div className="container mx-auto px-6 sm:px-12 pb-24 pt-16 text-center">
         <p className="mx-auto font-bold text-2xl md:text-4xl max-w-[600px] mb-4">
           Каталог готовых изделий
@@ -74,23 +74,34 @@ export function Catalog() {
         </p>
 
         <ul className="navs sm:flex sm:gap-14 sm:justify-center  mb-12">
-          <Link href="#">
-            <li className="text-base md:text-xl py-3 px-3">Главная</li>
+          <Link href="/">
+            <li className="text-base md:text-xl py-3 px-3 hover:text-lime-500 ">
+              Главная
+            </li>
           </Link>
-          <Link href="#">
-            <li className="text-base md:text-xl py-3 px-3">Каталог</li>
+          <Link href="/catalog">
+            <li className="text-base md:text-xl py-3 px-3 hover:text-lime-500">
+              Каталог
+            </li>
           </Link>
-          <Link href="#">
-            <li className="text-base md:text-xl py-3 px-3">Гарантии</li>
+          <Link href="#garanty">
+            <li className="text-base md:text-xl py-3 px-3 hover:text-lime-500">
+              Гарантии
+            </li>
           </Link>
-          <Link href="#">
-            <li className="text-base md:text-xl py-3 px-3">Продукты</li>
+          <Link href="#product">
+            <li className="text-base md:text-xl py-3 px-3 hover:text-lime-500">
+              Продукты
+            </li>
           </Link>
         </ul>
 
         <div className="cards flex flex-wrap gap-6 justify-center mb-16">
           {array.map((item) => (
-            <div className="inline-block" key={item.id}>
+            <div
+              className="inline-block cursor-pointer shadow-md p-2 transition transform hover:scale-105"
+              key={item.id}
+            >
               <Image
                 className=" bg-neutral-200 rounded-md mb-4"
                 src={item.img}
@@ -106,7 +117,9 @@ export function Catalog() {
           ))}
         </div>
 
-        <BtnDownl typeName="ПЕРЕЙТИ В КАТАЛОГ" />
+        <Link href="/catalog">
+          <BtnDownl typeName="ПЕРЕЙТИ В КАТАЛОГ" />
+        </Link>
       </div>
     </section>
   );

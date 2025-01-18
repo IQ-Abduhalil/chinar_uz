@@ -34,27 +34,111 @@ export function LogoSection() {
         </div>
 
         <div className="logos flex flex-wrap gap-16 justify-center">
-          <Image className="cursor-pointer" src={Logo1} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo2} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo3} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo4} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo5} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo6} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo7} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo8} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo9} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo10} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo11} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo12} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo13} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo14} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo15} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo16} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo17} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo18} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo19} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo20} alt="sayt-logo" />
-          <Image className="cursor-pointer" src={Logo21} alt="sayt-logo" />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo1}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo2}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo3}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo4}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo5}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo6}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo7}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo8}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo9}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo10}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo11}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo12}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo13}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo14}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo15}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo16}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo17}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo18}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo19}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo20}
+            alt="sayt-logo"
+          />
+          <Image
+            className="cursor-pointer shadow-md rounded-lg transition hover:shadow-lg"
+            src={Logo21}
+            alt="sayt-logo"
+          />
         </div>
       </div>
     </section>

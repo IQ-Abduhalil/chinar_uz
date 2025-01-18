@@ -9,7 +9,7 @@ import Img6 from "../../assets/srok10/img6.png";
 
 export function SrokSection() {
   return (
-    <section>
+    <section id="works">
       <div className="container mx-auto px-6 md:px-12 pb-20">
         <p className="max-w-[895px] text-2xl md:text-4xl font-bold mb-4">
           Мы тщательно контролируем качество производства, обеспечивая

@@ -74,7 +74,7 @@ export function VaprosSection() {
           Остались вопросы?{" "}
         </p>
         <Link href="/question">
-          <button className="py-4 px-9 bg-lime-500 text-white">
+          <button className="py-4 px-9 bg-lime-500 text-white hover:bg-lime-600">
             ЗАДАТЬ ВОПРОС
           </button>
         </Link>
