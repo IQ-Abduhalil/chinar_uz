@@ -1,6 +1,6 @@
 export function Haqida() {
   return (
-    <section className="haqida">
+    <section id="about" className="haqida">
       <div className="container mx-auto px-6 md:px-12 pb-12">
         <p className="text-4xl font-bold">О нас</p>
         <div className="flex flex-wrap gap-2  md:justify-between mb-3 ">

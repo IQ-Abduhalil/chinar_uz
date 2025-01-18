@@ -8,7 +8,7 @@ import Telegram from "../../assets/icons/tlgrm.svg";
 
 export function Footer() {
   return (
-    <footer>
+    <footer id="footer">
       <div className="container mx-auto px-6 flex  flex-col-reverse sm:flex-row md:px-12   sm:justify-between py-5">
         <div className="header__left flex justify-between mt-2 items-center mb-3 md:gap-5">
           <Link href="#">

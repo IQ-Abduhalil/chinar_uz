@@ -8,7 +8,7 @@ import HaqidaImg6 from "../../assets/images/haqida-img6.png";
 
 export default function Mebeli() {
   return (
-    <section className="mebeli">
+    <section className="mebeli" id="garanty">
       <div className="container mx-auto px-6 md:px-12 py-16">
         <p className="title max-w-[600px] font-bold text-4xl mb-4">
           С 2008 года мы сделали более 100 000 мебели

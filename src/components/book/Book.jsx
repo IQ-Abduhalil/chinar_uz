@@ -5,7 +5,7 @@ import BookImg from "../../assets/images/book.png";
 
 export function Book() {
   return (
-    <section>
+    <section id="book">
       <div className="container mx-auto px-12 flex flex-wrap items-center mt-4">
         <div className="book__left">
           <p className="text-2xl sm:text-4xl font-semibold mb-4">

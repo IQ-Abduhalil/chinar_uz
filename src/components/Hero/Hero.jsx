@@ -20,7 +20,9 @@ export function Hero() {
               от элегантных стульев и столов для кафе и ресторанов до уютных
               уголков для отдыха и лаунж-зон.
             </p>
-            <BtnDownl typeName="СКАЧАТЬ КАТАЛОГ" />
+            <Link href="#book">
+              <BtnDownl typeName="СКАЧАТЬ КАТАЛОГ" />
+            </Link>
           </div>
 
           <div className="flex flex-wrap justify-between mb-9 gap-6">

@@ -12,14 +12,14 @@ export function Categori() {
         </p>
 
         <div className="categori__cards flex justify-center gap-4 flex-wrap">
-          <div className="card max-h-[281px] rounded-lg border-none cursor-pointer flex gap-1  ">
+          <div className="card max-h-[281px] shadow-lg overflow-hidden transform transition hover:scale-95 rounded-lg border-none cursor-pointer flex gap-1  ">
             <p className="font-bold text-sm sm:text-lg text-white">Комплекты</p>
             <p className="text-sm  text-light px-1 py-1 bg-green-700 rounded-sm">
               15 продуктов
             </p>
           </div>
 
-          <div className="card2   max-h-[281px] rounded-lg border-none cursor-pointer flex gap-1  ">
+          <div className="card2   max-h-[281px] shadow-lg overflow-hidden transform transition hover:scale-95 rounded-lg border-none cursor-pointer flex gap-1  ">
             <p className="font-bold text-sm sm:text-lg text-white">
               Подвесные кресла
             </p>
@@ -28,7 +28,7 @@ export function Categori() {
             </p>
           </div>
 
-          <div className="card3 max-h-[281px] rounded-lg border-none cursor-pointer flex gap-1  ">
+          <div className="card3 max-h-[281px] shadow-lg overflow-hidden transform transition hover:scale-95 rounded-lg border-none cursor-pointer flex gap-1  ">
             <p className="font-bold text-sm sm:text-lg text-white">
               Диваны кресла
             </p>
@@ -37,7 +37,7 @@ export function Categori() {
             </p>
           </div>
 
-          <div className="card4  max-h-[281px] rounded-lg border-none cursor-pointer flex gap-1  ">
+          <div className="card4  max-h-[281px] shadow-lg overflow-hidden transform transition hover:scale-95 rounded-lg border-none cursor-pointer flex gap-1  ">
             <p className="font-bold text-sm sm:text-lg text-white">Шезлонги</p>
             <p className="text-sm text-light px-1 py-1 bg-green-700 rounded-sm">
               1 продуктов
